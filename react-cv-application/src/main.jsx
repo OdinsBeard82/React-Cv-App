@@ -5,6 +5,7 @@ import GeneralInfo from './GeneralInfo.jsx'
 import './index.css'
 import EducationalExperience from './EducationalExperience.jsx'
 import PracticalExperience from './PracticalExperience.jsx'
+import './style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

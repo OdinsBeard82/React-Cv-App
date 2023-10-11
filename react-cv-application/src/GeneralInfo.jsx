@@ -18,7 +18,13 @@ function GeneralInfo() {
       <div className="form-group">
         <label htmlFor="number">Number:</label>
         <input type="text" id="number" name="number" />
-        <button>Edit</button>
+        <button
+              onClick={() => {
+                this.setState({ editing: true });
+              }}
+            >
+              Edit
+            </button>
       <button>Submit</button>
       </div>
     </div>
